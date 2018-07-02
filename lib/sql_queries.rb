@@ -1,5 +1,6 @@
 def selects_all_female_bears_return_name_and_age
-  "Write your SQL query here"
+  "SELECT gender = F FROM bears GROUP BY name, age"
+  binding.pry
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
